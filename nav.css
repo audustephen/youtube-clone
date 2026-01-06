@@ -1,0 +1,52 @@
+body{
+    font-family: Arial,  sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100px;
+    background-color: white;
+    position: fixed;
+    top: 80px;
+    bottom: 0;
+    left: 0;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.gate{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gate:hover{
+    background-color: rgb(226, 226, 226);
+}
+
+.gate img{
+    width: 30px;
+}
+
+.gate p{
+    font-size: 10px;
+    width: 80px;
+    text-align: center;
+}
+
+.gate img{
+    width: 30px;
+}

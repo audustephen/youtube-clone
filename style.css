@@ -1,0 +1,38 @@
+.parent{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 750px;
+    margin-top: 200px;
+}
+
+
+
+input{
+padding-top: 15px;
+padding-right: 700px;
+padding-bottom: 15px;
+border-radius: 50px;
+background-color: white;
+border: none;
+box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.05);
+margin-top: 40px;
+}
+
+.btn{
+    background-color: rgb(231, 230, 230);
+    padding: 15px 20px 15px 20px;
+    border: none;
+    
+}
+
+.div-1{
+    margin-left: 250px;
+}
+
+.div-2{
+    display: flex;
+   margin-left: 300px;
+   margin-top: 20px;
+}

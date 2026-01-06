@@ -1,0 +1,132 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    border: 1px solid #e4e2e2;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.08);
+  
+}
+
+.left-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-left: 20px;
+}
+
+.hamburger{
+    width: 30px;
+}
+
+.youtube-logo{
+    width: 70px;
+}
+
+.middle-section{
+    flex: 1;
+    max-width: 500px;
+    height: 50px;
+    border: 1px solid #262626;
+    display: flex;
+    flex-direction: row;
+     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+
+.middle-section input{
+    flex: 1;
+    height: 45px;
+    border: 1px solid #c7c6c6;
+    width: 0;
+      box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.08);
+      padding-left: 15px;
+     
+}
+
+
+input::placeholder{
+    font-size: 18px;
+
+}
+
+
+.btn{
+    width: 55px;
+    height: 50px;
+    border: none;
+    margin-left: -1px;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.voice-con{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+
+.right-section{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.mint img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.mate img{
+    width: 25px;
+    height: 25px;
+}
+
+.main img{
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.library{
+    width: 25px;
+    position: relative;
+   
+}
+
+.upload{
+    position: absolute;
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.school:hover .upload{
+     opacity: 1;
+}
